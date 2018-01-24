@@ -55,8 +55,8 @@ RUN set -ex; \
 	rm -rf "$GNUPGHOME"; \
 	apt-key list
 
-ENV PG_MAJOR 9.6
-ENV PG_VERSION 9.6.6
+ENV PG_MAJOR 9.4
+ENV PG_VERSION 9.4.15
 ENV PG_VERSION_MINOR 1.pgdg16.04+1
 
 RUN set -ex; \
